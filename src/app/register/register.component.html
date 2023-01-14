@@ -1,0 +1,119 @@
+<section class="vh-210 bg-image"
+  style="background-image: url('');">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-200">
+      <div class="row d-flex justify-content-center align-items-center h-200">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+              <form>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="form3Example1cg" class="form-control form-control-lg" ngModel="uname" />
+                  <label class="form-label" for="form3Example1cg" >Your Name</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="form3Example3cg" class="form-control form-control-lg" ngModel="acno"/>
+                  <label class="form-label" for="form3Example3cg">Acc no</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="password" id="form3Example4cg" class="form-control form-control-lg"  [(ngModel)]="psw"/>
+                  <label class="form-label" for="form3Example4cg">Password</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example4cdg">Repeat your password</label>
+                </div>
+
+                <!-- <div class="form-check d-flex justify-content-center mb-5">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
+                  <label class="form-check-label" for="form2Example3g">
+                    I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                  </label>
+                </div> --> <br>
+
+                <div class="d-flex justify-content-center">
+                  <button type="button"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" (click)="register()">Register</button>
+                </div><br>
+
+                <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="/login"
+                    class="fw-bold text-body"(click)="loginin()"> <u>Login here</u></a></p><br>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="login-container">
+    <img class="film" src="assets/images/Marvel.png" alt="">
+    <img class="film1" src="assets/images/don.png" alt="">
+    <div class="login-form">
+        <img  src="assets/images/logo.png" alt="" style="width: 80%;margin-top: 3%;margin-left: 10%;">
+   
+      <div class="form-group">
+        <label for="uname">Username</label>
+        <input
+          type="text"
+          name="uname"
+          class="form-control"
+          placeholder="username"
+          [(ngModel)]="uname"
+
+        />
+       
+      <div class="form-group">
+        <label for="uname">Account No:</label>
+        <input
+          type="text"
+          name="acc"
+          class="form-control"
+          placeholder="Account No:"
+          [(ngModel)]="acno"
+        />
+      </div>
+      <div class="form-group">
+        <label for="pword">Password</label>
+        <input
+          type="password"
+          name="pword"
+          class="form-control"
+          placeholder="password"
+          [(ngModel)]="psw"
+
+        />
+      </div>
+      <div class="btn-container">
+        <br>
+        <button type="submit" class="btn btn-danger" style="width: 70%;margin-left: 15%;" (click)="register()">REGISTER</button>
+        <br> <br>
+        <p style="color: azure;text-align: center;">Already have account?</p>
+        <button type="submit" class="btn btn-success" style="width: 30%;margin-left: 35%;height: 35px;margin-top: -20px;" (click)="loginin()">
+            Sign in
+        </button>
+
+      </div>
+    </div>
+</div> -->

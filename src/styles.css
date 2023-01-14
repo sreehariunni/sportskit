@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    /* background-image: url(./assets/Featured-Image-1.webp); */
+    background-size: cover;
+    background-image: url('./assets/sports-tools_53876-138077.jpg');
+}
